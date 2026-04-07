@@ -1,7 +1,12 @@
 aid: carlyle-group
-url: https://raw.githubusercontent.com/api-evangelist/carlyle-group/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/carlyle-group/refs/heads/main/apis.yml
 modified: '2026-03-23'
 apis: []
 common:
   - type: Website
     url: https://www.carlyle-group.com
+description: >-
+  The Carlyle Group is a global investment firm with deep industry expertise that
+  deploys private capital across corporate private equity, real assets, global credit,
+  and investment solutions strategies.
