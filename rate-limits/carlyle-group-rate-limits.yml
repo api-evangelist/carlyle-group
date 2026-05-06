@@ -4,101 +4,32 @@ schema: https://raw.githubusercontent.com/api-evangelist/interface-research/main
 provider: The Carlyle Group
 providerId: carlyle-group
 created: '2026-05-04'
-modified: '2026-05-04'
+modified: '2026-05-05'
+reconciled: false
 tags:
-  - Alternative Assets
   - Asset Management
-  - Direct Lending
-  - Global Credit
-  - Investment Firm
   - Investor Portal
-  - Limited Partners
-  - Private Credit
   - Private Equity
-  - Real Assets
   - Rate Limiting
-  - Quotas
-  - Throttling
-description: Machine-readable rate limit definitions for the The Carlyle Group API surface. Captures per-tier
-  quotas, burst behavior, response signaling, and recovery semantics. Defaults are scaffold values to
-  be replaced with published provider limits.
-headers:
-  limit: X-RateLimit-Limit
-  remaining: X-RateLimit-Remaining
-  reset: X-RateLimit-Reset
-  retryAfter: Retry-After
-  policy: RateLimit-Policy
+description: The Carlyle Group does not publish a public API and therefore does not publish rate limits.
+  Any integration limits are enforced inside vendor-managed portals and bilateral file-exchange relationships.
+notes: No public rate-limit documentation exists. Treat all integration constraints as relationship-defined.
+sources:
+  - https://www.carlyle.com/
 responseCodes:
   throttled: 429
-  quotaExceeded: 429
-  serviceUnavailable: 503
 limits:
-  - tier: free
-    name: Free Tier Default
-    scope: api-key
-    metric: requests_per_minute
-    limit: 10
-    burst: 20
-    timeFrame: minute
-    applies:
-      - Carlyle LP Connect Portal
-      - Carlyle Direct Lending Investor Portal
-      - Carlyle Global Portfolio Solutions Portal
-  - tier: free
-    name: Free Tier Monthly Quota
-    scope: api-key
-    metric: requests_per_month
-    limit: 1000
-    timeFrame: month
-    applies:
-      - Carlyle LP Connect Portal
-      - Carlyle Direct Lending Investor Portal
-      - Carlyle Global Portfolio Solutions Portal
-  - tier: professional
-    name: Professional Tier Default
-    scope: api-key
-    metric: requests_per_minute
-    limit: 100
-    burst: 200
-    timeFrame: minute
-    applies:
-      - Carlyle LP Connect Portal
-      - Carlyle Direct Lending Investor Portal
-      - Carlyle Global Portfolio Solutions Portal
-  - tier: professional
-    name: Professional Tier Monthly Quota
-    scope: api-key
-    metric: requests_per_month
-    limit: 100000
-    timeFrame: month
-    applies:
-      - Carlyle LP Connect Portal
-      - Carlyle Direct Lending Investor Portal
-      - Carlyle Global Portfolio Solutions Portal
-  - tier: enterprise
-    name: Enterprise Negotiated Limit
-    scope: contract
-    metric: requests_per_minute
-    limit: 1000
-    burst: 5000
-    timeFrame: minute
-    applies:
-      - Carlyle LP Connect Portal
-      - Carlyle Direct Lending Investor Portal
-      - Carlyle Global Portfolio Solutions Portal
+  - name: Per-relationship integration limit
+    scope: relationship
+    metric: varies
+    limit: see relationship terms
 policies:
-  - name: Backoff Strategy
-    description: Clients should implement exponential backoff with jitter, honoring the Retry-After header
-      when present.
-  - name: Burst Handling
-    description: Short bursts above the steady-state limit are tolerated up to the documented burst ceiling
-      before throttling engages.
-  - name: Quota Reset
-    description: Monthly quotas reset at the start of each calendar month in UTC. Per-minute and per-second
-      windows reset on a sliding-window basis.
-  - name: Fair Use
-    description: Even on uncapped enterprise tiers, sustained usage that materially impacts shared infrastructure
-      may be subject to fair-use throttling.
+  - name: Vendor-managed integrations
+    description: Carlyle delegates much of its data exchange to vendor platforms (fund administrators,
+      portal vendors); rate constraints are set by those vendors, not by Carlyle directly.
+  - name: Confidentiality scoping
+    description: All integration traffic is subject to NDAs and information-barrier rules; rate limits
+      are secondary to access-control constraints.
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
