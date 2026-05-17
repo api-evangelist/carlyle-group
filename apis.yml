@@ -16,7 +16,7 @@ description: >-
   with fund administrators, custodians, and placement agents run
   through bespoke secure file exchange and vendor-managed APIs.
 type: Index
-x-type: company
+kind: company
 position: Consumer
 access: Partner
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
@@ -135,9 +135,9 @@ common:
     url: https://www.carlyle.com/careers
   - type: Contact
     url: https://www.carlyle.com/contact-us
-  - type: Privacy Policy
+  - type: PrivacyPolicy
     url: https://www.carlyle.com/privacy-policy
-  - type: Terms of Service
+  - type: TermsOfService
     url: https://www.carlyle.com/terms-of-use
   - type: LinkedIn
     url: https://www.linkedin.com/company/the-carlyle-group
