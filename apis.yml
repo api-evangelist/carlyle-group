@@ -114,6 +114,8 @@ apis:
       - Value-creation playbook distribution
       - M&A and carve-out support
 common:
+  - type: DomainSecurity
+    url: security/carlyle-group-domain-security.yml
   - type: Website
     url: https://www.carlyle.com/
   - type: Investor Relations
