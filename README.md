@@ -29,10 +29,6 @@ Carlyle is one of the largest alternative asset managers in the world, with hund
 
 ## APIs
 
-### Carlyle LP Connect Portal
-LP Connect is Carlyle's secure portal for Limited Partners and their advisors to access fund reporting, capital calls and distributions, investor statements, tax documents, and ad-hoc diligence materials. Access is provisioned by Carlyle on request. There is no public API; the portal is a web application with email-based credential recovery.
-
-**Human URL:** [https://lpconnect.carlyle.com](https://lpconnect.carlyle.com)
 
 #### Features
 - LP fund reporting and capital activity

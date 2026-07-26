@@ -17,9 +17,21 @@ description: >-
   through bespoke secure file exchange and vendor-managed APIs.
 type: Index
 kind: company
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source:
+    - plans
+  generated: '2026-07-22'
+  method: derived
 position: Consumer
 access: Partner
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/carlyle-group.png
 tags:
   - Alternative Assets
   - Asset Management
@@ -33,39 +45,9 @@ tags:
   - Real Assets
   - Fortune 1000
 created: '2026-03-23'
-modified: '2026-04-23'
+modified: '2026-07-25'
 specificationVersion: '0.19'
 apis:
-  - aid: carlyle-group:lp-connect
-    name: Carlyle LP Connect Portal
-    description: >-
-      LP Connect is Carlyle's secure portal for Limited Partners and
-      their advisors to access fund reporting, capital calls and
-      distributions, investor statements, tax documents, and ad-hoc
-      diligence materials. Access is provisioned by Carlyle on
-      request. There is no public API; the portal is a web
-      application with email-based credential recovery.
-    humanURL: https://lpconnect.carlyle.com
-    tags:
-      - Investor Portal
-      - Limited Partners
-      - Private Equity
-    properties:
-      - url: https://lpconnect.carlyle.com
-        type: Portal
-      - url: https://lpconnect.carlyle.com/login.jsp
-        type: Login
-    x-features:
-      - LP fund reporting and capital activity
-      - Capital call and distribution notices
-      - Tax documents (K-1s, PFIC) and investor statements
-      - Ad-hoc diligence and side letter documents
-      - Email-based credential recovery
-    x-use-cases:
-      - Family office LP operations
-      - Pension and endowment staff reporting
-      - Fund-of-funds due diligence workflows
-      - Third-party LP administration
   - aid: carlyle-group:direct-lending-portal
     name: Carlyle Direct Lending Investor Portal
     description: >-
