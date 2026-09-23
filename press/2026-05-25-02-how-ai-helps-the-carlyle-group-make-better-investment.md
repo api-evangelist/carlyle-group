@@ -1,7 +1,9 @@
 ---
 title: How AI Helps The Carlyle Group Make Better Investment ...
 url: https://www.sesamm.com/blog/alternative-data-help-teams-make-better-choices
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Carlyle Group" press release artificial intelligence'
 position: 2
 source: serpapi-google

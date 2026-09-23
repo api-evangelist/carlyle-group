@@ -1,7 +1,9 @@
 ---
 title: Carlyle Agrees to Acquire Adastra
 url: https://www.carlyle.com/media-room/news-release-archive/carlyle-agrees-acquire-adastra
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Carlyle Group" press release artificial intelligence'
 position: 1
 source: serpapi-google
