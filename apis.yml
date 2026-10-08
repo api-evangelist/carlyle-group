@@ -107,6 +107,12 @@ apis:
       - Value-creation playbook distribution
       - M&A and carve-out support
 common:
+  - type: Plans
+    url: plans/carlyle-group-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/carlyle-group-rate-limits.yml
+  - type: FinOps
+    url: finops/carlyle-group-finops.yml
   - type: DomainSecurity
     url: security/carlyle-group-domain-security.yml
   - type: Website
