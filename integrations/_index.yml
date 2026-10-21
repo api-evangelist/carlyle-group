@@ -34,3 +34,34 @@
     detected: '2026-10-18'
   status: not-a-workflow
   arazzo: null
+- slug: carlyle-group-ilpa-institutional-limited-partners-association
+  label: ILPA (Institutional Limited Partners Association)
+  partner_name: ILPA (Institutional Limited Partners Association)
+  category: private-markets industry association / reporting-template standard
+  type: register
+  channel: standard-directory
+  evidence: https://ilpa.org/organization/the-carlyle-group/
+  source: edge
+  relationship: standard-participant
+  contract_reference:
+    register: ILPA organisations (ilpa.org Member Directory + ILPA Templates Hub endorsers; public WP JSON)
+    standard: ILPA Principles / ILPA Reporting, Performance and Capital Call templates
+    spec_file: null
+    role:
+    - ilpa-signatory
+    - ilpa-template-endorser
+    organisation_type:
+    - general-partner
+    registered_name: The Carlyle Group
+    register_id: ilpa organization 1104 (the-carlyle-group)
+    register_country: united-states
+    matched_domain: carlyle.com
+    matched_by: domain
+    signal_note: 'participation only: ILPA membership / template endorsement is a public commitment, not tested
+      conformance; one edge per organisation, roles are context, never counted'
+    detected_by: sweep-private-markets-fund-admin.py
+    detected: '2026-10-20'
+    identity: wikidata Q926806 'Carlyle Group' P856 http://www.carlyle.com
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+  status: not-a-workflow
+  arazzo: null
