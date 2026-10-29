@@ -1,4 +1,4 @@
-# The Carlyle Group (carlyle-group)
+# The Carlyle Group
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,101 +66,102 @@
 
 The Carlyle Group (NASDAQ: CG) is a global investment firm that deploys private capital across Global Private Equity, Global Credit, Global Investment Solutions (AlpInvest), and carveouts such as Carlyle Direct Lending. Carlyle does not publish a public developer API. Institutional LPs, co-investors, and portfolio companies interact with the firm through a set of private, authentication-gated portals: LP Connect for fund investors, Carlyle Direct Lending's portal for direct lending clients, the Carlyle Global Portfolio Solutions (resources.carlyle.com) portal, and brand experiences such as Carlyle & Co. Integrations with fund administrators, custodians, and placement agents run through bespoke secure file exchange and vendor-managed APIs.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/carlyle-group/refs/heads/main/apis.yml)
+**Areas:** Alternative Assets · Asset Management · Direct Lending · Global Credit · Investment Firm · Investor Portal · Limited Partners · Private Credit · Private Equity · Real Assets · Fortune 1000
 
-## Scope
+## The Carlyle Group on APIs.io
 
-- **Type:** Index
-- **x-type:** company
-- **Position:** Consumer
-- **Access:** Partner
+Everything profiled for The Carlyle Group is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/carlyle-group/](https://apis.io/providers/carlyle-group/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (2)
 
-- Alternative Assets
-- Asset Management
-- Direct Lending
-- Global Credit
-- Investment Firm
-- Investor Portal
-- Limited Partners
-- Private Credit
-- Private Equity
-- Real Assets
+- [Carlyle Direct Lending Investor Portal](https://apis.io/apis/carlyle-group/direct-lending-portal/) — Carlyle Direct Lending operates a dedicated investor portal for clients of Carlyle's direct lending funds and BDC vehicles. The portal supports modern web…
+- [Carlyle Global Portfolio Solutions Portal](https://apis.io/apis/carlyle-group/global-portfolio-solutions/) — The Carlyle Global Portfolio Solutions Portal (resources.carlyle.com) is the secure workspace used by Carlyle's portfolio operations team, portfolio company…
 
-## Overview
+### Published properties
 
-Carlyle is one of the largest alternative asset managers in the world, with hundreds of billions of assets under management across private equity, credit, and investment solutions. Because the business is institutional rather than developer-facing, Carlyle exposes its digital surfaces as gated investor and portfolio portals rather than public REST APIs. LPs and their advisors log into LP Connect for fund-level reporting and capital activity; direct lending clients use a dedicated portal for BDC and direct-lending reporting; portfolio company executives and Carlyle's operations team collaborate through the Global Portfolio Solutions Portal.
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Security (1)
 
+Authentication, trust centre, and vulnerability disclosure.
 
-#### Features
-- LP fund reporting and capital activity
-- Capital call and distribution notices
-- Tax documents (K-1s, PFIC) and investor statements
-- Ad-hoc diligence and side letter documents
-- Email-based credential recovery
+- [Carlyle Group Domain Security](https://apis.io/security/carlyle-group/carlyle-group-domain-security/)
 
-#### Use Cases
-- Family office LP operations
-- Pension and endowment staff reporting
-- Fund-of-funds due diligence workflows
-- Third-party LP administration
+#### Plans and pricing (1)
 
-### Carlyle Direct Lending Investor Portal
-Carlyle Direct Lending operates a dedicated investor portal for clients of Carlyle's direct lending funds and BDC vehicles. The portal supports modern web browsers and is used for reporting, distributions, and investor communications.
+Published plans, tiers and prices.
 
-**Human URL:** [https://directlending.carlyle.com](https://directlending.carlyle.com)
+- [Carlyle Group Plans Pricing](https://apis.io/plans/carlyle-group/carlyle-group-plans-pricing/)
 
-#### Features
-- BDC and direct lending fund reporting
-- Distribution and capital activity notices
-- Modern browser support (Chrome, Edge, Safari, Firefox, Opera)
+#### Rate limits (1)
 
-#### Use Cases
-- BDC shareholder account access
-- Institutional direct lending LP reporting
-- RIA/advisor portfolio oversight
+Published request limits.
 
-### Carlyle Global Portfolio Solutions Portal
-The Carlyle Global Portfolio Solutions Portal (resources.carlyle.com) is the secure workspace used by Carlyle's portfolio operations team, portfolio company executives, and advisors to share tools, templates, and operational playbooks across the portfolio.
+- [Carlyle Group Rate Limits](https://apis.io/rate-limits/carlyle-group/carlyle-group-rate-limits/)
 
-**Human URL:** [https://resources.carlyle.com/carlyle/login](https://resources.carlyle.com/carlyle/login)
+#### FinOps (1)
 
-#### Features
-- Portfolio operations resources and templates
-- Executive community and tooling
-- Secure document sharing
+What the API costs to run, by operation.
 
-#### Use Cases
-- Portco finance and HR standardization
-- Value-creation playbook distribution
-- M&A and carve-out support
+- [Carlyle Group Finops](https://apis.io/finops/carlyle-group/carlyle-group-finops/)
 
-## Common Properties
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.carlyle.com/)
-- [Investor Relations](https://ir.carlyle.com/)
-- [LP Connect](https://lpconnect.carlyle.com)
-- [Direct Lending Portal](https://directlending.carlyle.com)
-- [Global Portfolio Solutions Portal](https://resources.carlyle.com/carlyle/login)
-- [AlpInvest](https://www.carlylealpinvest.com/)
-- [Login](https://www.carlyle.com/user/login)
-- [About](https://www.carlyle.com/about-carlyle)
-- [Careers](https://www.carlyle.com/careers)
-- [Contact](https://www.carlyle.com/contact-us)
-- [Privacy Policy](https://www.carlyle.com/privacy-policy)
-- [Terms of Use](https://www.carlyle.com/terms-of-use)
-- [LinkedIn](https://www.linkedin.com/company/the-carlyle-group)
-- [X](https://x.com/OneCarlyle)
+- [Terms of service](https://www.carlyle.com/terms-of-use)
+- [Privacy policy](https://www.carlyle.com/privacy-policy)
 
-## Timestamps
+## API Evangelist rating
 
-- **Created:** 2026-03-23
-- **Modified:** 2026-04-23
+**Kin Score 14.7** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-## Maintainers
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 9.5 |
+| Access clarity | 32.9 |
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/carlyle-group/](https://apis.io/providers/carlyle-group/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for The Carlyle Group: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/carlyle-group/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
